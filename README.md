@@ -2,6 +2,16 @@
 
 This takes `title`, `fields`, `onSubmit` as props. Iterating over the fields to create a unique form.
 
+Each `field` in the `fields` array contains the following
+
+    `type`: string,
+    `name`: string,
+    `label`: string,
+    `required`: boolean,
+    `validate`: string that is used to index a an object with validation functions
+
+Currently tested for just string inputs, works for number input but hasn't been extensiely tested for that.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
