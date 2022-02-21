@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  & > div {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
