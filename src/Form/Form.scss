@@ -1,0 +1,61 @@
+#generic-form {
+  width: 100%;
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+  }
+
+  #body {
+    padding: 0px 20px;
+  }
+
+  .field {
+    padding-bottom: 20px;
+    label {
+      font-size: 24px;
+      font-weight: bold;
+      span {
+        font-size: 15px;
+      }
+    }
+
+    input {
+      margin-top: 10px;
+      font-size: 24px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    .error {
+      font-size: 20px;
+      color: red;
+    }
+  }
+
+  button {
+    border: none;
+    min-width: 100px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: #383838;
+    }
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+    background-color: darkgray;
+  }
+
+  #submitted {
+    color: green;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+}

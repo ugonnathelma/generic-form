@@ -4,7 +4,7 @@
     "name": "firstName",
     "label": "First Name",
     "required": true,
-    "validate": "woogaPrefix"
+    "validate": "testPrefix"
   },
   {
     "type": "text",
