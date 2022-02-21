@@ -2,11 +2,11 @@ const validation = {
   required: (text: string) => {
     return text.length > 0 ? undefined : "Input cannot be empty";
   },
-  woogaPrefix: (text: string) => {
-    if (text.startsWith("wooga.name") || "wooga.name".startsWith(text))
+  testPrefix: (text: string) => {
+    if (text.startsWith("test.name") || "test.name".startsWith(text))
       return undefined;
 
-    return 'Input must start with "wooga.name"';
+    return 'Input must start with "test.name"';
   },
   ageValidation: (text: string) => {
     return Number(text) >= 18 ? undefined : "You must be at least 18 years";
