@@ -1,0 +1,22 @@
+[
+  {
+    "type": "text",
+    "name": "firstName",
+    "label": "First Name",
+    "required": true,
+    "validate": "woogaPrefix"
+  },
+  {
+    "type": "text",
+    "name": "lastName",
+    "label": "Last Name",
+    "required": false
+  },
+  {
+    "type": "number",
+    "name": "age",
+    "label": "Age",
+    "required": true,
+    "validate": "ageValidation"
+  }
+]
